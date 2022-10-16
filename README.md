@@ -3,6 +3,8 @@
 
 Search Ethereum wallet addresses and view the NFTs inside them
 
+[![nft-gallery](https://wgxwocyublngaeisjxte.supabase.co/storage/v1/object/public/assets/projects/nft-gallery-cover.jpg)](https://wgxwocyublngaeisjxte.supabase.co/storage/v1/object/public/assets/projects/nft-gallery-cover.jpg)
+
 #### Stack
 - Vue 3
 - Vite
