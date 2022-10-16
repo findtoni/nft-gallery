@@ -59,6 +59,7 @@ export const useStore = defineStore('nftGallery', {
 
       let nfts = await fetch(fetchUrl, { method: 'GET' });
       nfts = await nfts.json();
+      //@ts-ignore
       this.nfts = nfts?.ownedNfts;
       this.nfts.length === 0
         ? (this.message = `No NFTs found in this wallet on ${this.selectedNetwork}`)
@@ -75,6 +76,7 @@ export const useStore = defineStore('nftGallery', {
 
       let nfts = await fetch(fetchUrl, { method: 'GET' });
       nfts = await nfts.json();
+      //@ts-ignore
       this.nfts = nfts?.nfts;
       this.nfts.length === 0
         ? (this.message = `No NFTs found in this wallet on ${this.selectedNetwork}`)
