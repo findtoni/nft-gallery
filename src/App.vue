@@ -15,6 +15,6 @@ const store = useStore();
       <ASearch />
       <AGallery v-if="store.nfts.length >= 1" />
     </div>
-    <AFooter />
+    <!-- <AFooter /> -->
   </div>
 </template>
