@@ -4,7 +4,7 @@
       class="text-3xl font-normal font-serif tracking-wide skew-x-6 underline decoration-wavy decoration-pink-500 text-white">
       NFT Gallery
     </h1>
-    <p class="text-sm text-white">
+    <p class="text-sm md:text-md text-white">
       Search wallet addresses to view all the NFTs inside ✨
     </p>
   </div>

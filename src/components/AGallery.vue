@@ -12,7 +12,7 @@ const blockExplorer = computed(() => {
 </script>
 
 <template>
-  <div class="w-4/5 md:w-3/5 pt-6">
+  <div class="w-4/5 md:w-3/5 pt-10">
     <p class="text-white text-center pb-4 w-full">
       {{ store.message }}
     </p>
