@@ -9,12 +9,12 @@ const store = useStore();
 </script>
 
 <template>
-  <div class="bg-slate-800 h-full w-full">
+  <div class="bg-slate-800 h-full w-full fixed">
     <div class="flex flex-col items-center justify-center h-screen">
       <ALogo />
       <ASearch />
       <AGallery v-if="store.nfts.length >= 1" />
     </div>
-    <!-- <AFooter /> -->
+    <AFooter />
   </div>
 </template>

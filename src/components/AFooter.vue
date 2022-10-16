@@ -11,7 +11,7 @@ const open = ref(false);
       <div class="w-auto">
         <a href="https://github.com/findtoni/nft-gallery" target="_blank">
           <img
-            class="w-20 md:w-32"
+            class="w-20 md:w-22"
             width="auto"
             height="auto"
             alt="GitHub stars"
@@ -45,7 +45,7 @@ const open = ref(false);
         </div>
         <QuestionMarkCircleIcon
           @click="open = !open"
-          class="h-8 w-8 md:h-9 md:w-9 text-gray-300 hover:text-white cursor-pointer" />
+          class="h-8 w-8 text-gray-300 hover:text-white cursor-pointer" />
       </div>
     </div>
   </div>
