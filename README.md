@@ -5,14 +5,21 @@ Search Ethereum wallet addresses and view the NFTs inside them
 
 [![nft-gallery](https://wgxwocyublngaeisjxte.supabase.co/storage/v1/object/public/assets/projects/nft-gallery-cover.jpg)](https://wgxwocyublngaeisjxte.supabase.co/storage/v1/object/public/assets/projects/nft-gallery-cover.jpg)
 
-#### Stack
+### Stack
 - Vue 3
 - Vite
 - Pinia
 - TypeScript
 - Alchemy NFT API
 
-##### Instructions
-1. Run `yarn install` to install dependencies
-2. Run `yarn run dev` to start server
-3. Run `yarn run build` to build for production
+### Instructions
+``` bash
+# install dependencies
+$ yarn install
+
+# start server
+$ yarn run dev
+
+# build for production
+$ yarn run build
+```
